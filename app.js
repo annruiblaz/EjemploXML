@@ -1,5 +1,5 @@
 const axios = require('axios');
-const xml2js = require('xml2js');
+const xml2js = require('xml2js'); //Para parsear el código html
 
 function cargaDocXML() {
     let txt = '';
